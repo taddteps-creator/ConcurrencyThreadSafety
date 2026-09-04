@@ -37,7 +37,7 @@ public class ActorDemo {
      * ปลอดภัยได้เพราะมีเธรดเดียวเท่านั้นที่แตะมัน
      */
     private static class AccountActor implements Runnable {
-
+        
         private int balance = 0;
 
         private final BlockingQueue<Msg> inbox = new LinkedBlockingQueue<Msg>();
